@@ -5,9 +5,7 @@
 
 
 <template>
-  <router-view>
-    <span class="flex justify-center items-center h-screen text-5xl text-blue-600">Hello World</span>
-  </router-view>
+  <RouterView />
 </template>
 
 <style scoped></style>
