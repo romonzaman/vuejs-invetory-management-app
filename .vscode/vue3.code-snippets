@@ -1,0 +1,11 @@
+{
+    "My Custom Snippet": {
+      "prefix": "vue3init",
+      "body": [
+        "<script setup>\nimport {ref, reactive} from 'vue';\n\n</script>\n\n\n<template>\n\n</template>\n\n<style scoped>\n\n</style>",
+        "$1"
+      ],
+      "description": "My custom snippet for this project"
+    }
+  }
+  
