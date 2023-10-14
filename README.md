@@ -1,3 +1,27 @@
+
+### Assignment 1 (Module 13)
+
+##### Assignment: Suppose you have a website where you are now going to modify the user-details page.
+
+##### Objective:
+> Build a user details page using Vue.js 3. Where a user can edit his/her name, profile image, birthdate, email, description etc.
+
+
+> Requirements:
+
+>Computed Properties:
+
+>Create a computed property that calculates the user's birth year based on their age. Display this birth year on the profile page.
+Create another computed property that checks if the user is of legal age (18) for election. Display a message indicating whether the user can legally have the right to vote.
+
+
+>Watchers:
+
+>Implement a watcher that monitors changes to the user's age. When the age changes, automatically update the birth year and a message beside profile picture: message would be like “eligible for voting”/ “not eligible for voting”
+
+
+
+
 # Vue.js 3 Inventory Management App with Vite and Tailwind CSS
 
 Welcome to the Vue.js 3 Inventory Management App repository! This application is designed to help you efficiently manage inventory using Vue.js 3 with Vite as the build tool and development environment, along with Tailwind CSS for styling.
