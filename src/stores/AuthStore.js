@@ -39,7 +39,7 @@ export const useAuthStore = defineStore("auth", {
         this.authUser.username = form.email
         this.authUser.phonenumber = "+1 (786) 666-8610"
         this.authUser.balance = 99.01
-        this.router.push({ name: "Dashboard" })
+        this.router.push({ name: "Profile" })
       } catch (error) {
         console.error(error)
         // console.log(error.response.status, error.response.statusText)

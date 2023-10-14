@@ -8,6 +8,7 @@ const DashboardView = () => import("../views/DashboardView.vue")
 const ProductsView = () => import("../views/ProductsView.vue")
 const AddProduct = () => import("../views/AddProduct.vue")
 const ProductDetails = () => import("../views/ProductDetails.vue")
+const UserProfile = () => import("../views/UserProfile.vue")
 import { useAuthStore } from "../stores/AuthStore";
 
 
@@ -22,6 +23,7 @@ const router = createRouter({
     { path: "/login", name: "Login", component: Login },
     { path: "/logout", name: "Logout", component: LogoutView },
     { path: "/signup", name: "Signup", component: Signup },
+    { path: "/profile", name: "Profile", component: UserProfile },
     {
       path: "/forgotpassword",
       name: "ForgotPassword",

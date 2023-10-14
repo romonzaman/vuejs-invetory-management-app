@@ -39,7 +39,7 @@ const total_items = computed(() => {
 
 
 <template>
-    <UserLayout :activeMenu="1">
+    <UserLayout :activeMenu="2">
 
         <div class="m-10">
             <div class="mb-8">
